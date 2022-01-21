@@ -11,8 +11,8 @@ let currentTime = 8;
 
 
 if (isSchool || isWork) {
-  let gotSchool = 'I gotta go to school, '
-  console.log(gotSchool + "I have to set an alarm for tomorrow");
+  let gotThingsToDo = 'Do I have any responsibilities tomorrow, '
+  console.log(gotThingsToDo + "I have to set an alarm for tomorrow");
   if (currentTime <= 7.9) {
     console.log("Its " + currentTime + "AM I can probably sleep some more...");
   } else if (currentTime >= 12) {
@@ -21,14 +21,13 @@ if (isSchool || isWork) {
     console.log("Its " + currentTime + "AM I Gotta Wake Up...");
   }
 } else {
-  let gotWork = 'I gotta work tomorrow, '
-  console.log(gotWork + "I can sleep in tomorrow");
+  console.log("I can sleep in tomorrow");
     if (currentTime <= 7.9) {
       console.log("Its " + currentTime + "AM Im gonna sleep some more...");
     } else if (currentTime >= 12) {
       console.log("Its " + currentTime + "PM No worries though.");
     } else {
-      console.log("Its " + currentTime + "AM I should Wake Up...");
+      console.log("Its " + currentTime + "AM ZZZ....");
     }
   }
 
@@ -40,4 +39,10 @@ if (isSchool || isWork) {
   showOnPage('If I dont have shool or work in the morning --> dont worry about alarms')
   showOnPage('My local variables:')
   showOnPage('-gotWork = "I gotta work tomorrow"')
+  showOnPage('if current time is <= 7.9(7:55AM) "Im gonna sleep some more"')
+  showOnPage('else if current time is >= 12 (12PM) "Oh no I slept too much"')
+  showOnPage('else when current time is 8 AM then "I gotta wake up"')
   showOnPage('-gotSchool = "I gotta go to school"')
+  showOnPage('if current time is <= 7.9(7:55AM) "Im am gonna sleep some more"')
+  showOnPage('else if current time is >= 12 (12PM) "Its 12 pm no worries though"')
+  showOnPage('else when current time is 8 AM then "ZZZ..."')
