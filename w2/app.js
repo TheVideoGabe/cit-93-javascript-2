@@ -36,3 +36,8 @@ if (isSchool || isWork) {
   showOnPage('-Current Time: ' + currentTime + ' AM')
   showOnPage('-Do I have school in the morning: ' + isSchool)
   showOnPage('-Do I have work in the morning: ' + isWork)
+  showOnPage('If I have work or school in the morning --> set alarm for the next day')
+  showOnPage('If I dont have shool or work in the morning --> dont worry about alarms')
+  showOnPage('My local variables:')
+  showOnPage('-gotWork = "I gotta work tomorrow"')
+  showOnPage('-gotSchool = "I gotta go to school"')
