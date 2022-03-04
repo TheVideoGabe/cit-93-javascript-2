@@ -1,0 +1,16 @@
+body {
+    text-align: center;
+    background-color: pink;
+}
+
+form {
+    background-color: lightpink;
+    border: red;
+    border-radius: 5%;
+    font-weight: bold;
+}
+
+button {
+    color: rgb(0, 255, 255);
+    background-color: black;
+}
