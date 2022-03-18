@@ -1,0 +1,46 @@
+<!DOCTYPE html>
+<html lang="en">
+  <link rel="stylesheet" href="style.css" />
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>W10</title>
+  </head>
+  <body>
+    <h1>My Alarm is set for 8 A.M.</h1>
+    <div id="error"></div>
+    <form id="form">
+      <label>
+        Current Time
+        <select name="currentTime">
+          <option value="0"></option>
+          <option value="4">4 A.M</option>
+          <option value="5">5 A.M</option>
+          <option value="6">6 A.M</option>
+          <option value="7">7 A.M</option>
+          <option value="8">8 A.M</option>
+          <option value="9">9 A.M</option>
+          <option value="10">10 A.M</option>
+          <option value="11">11 A.M</option>
+          <option value="12">12 P.M</option>
+        </select>
+      </label>
+      <br/>
+      <label>
+        Do I have School? <input type="checkbox" name="isSchool" />
+      </label>
+      <br/>
+      <label> Do I have work? <input type="checkbox" name="isWork" /> </label>
+      <br />
+      <label> Overslept <input type="checkbox" name="isOverslept" /> </label>
+      <br/>
+      <button id="push">Push Me!</button>
+    </form>
+    <div id="output"></div>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/moment.js/2.29.1/moment-with-locales.min.js" integrity="sha512-LGXaggshOkD/at6PFNcp2V2unf9LzFq6LE+sChH7ceMTDP0g2kn6Vxwgg7wkPP7AAtX+lmPqPdxB47A0Nz0cMQ==" crossorigin="anonymous" referrerpolicy="no-referrer"></script>
+    <script src="../uuidv4.js"></script>
+    <script src="functions.js"></script>
+    <script src="app.js"></script>
+  </body>
+</html>

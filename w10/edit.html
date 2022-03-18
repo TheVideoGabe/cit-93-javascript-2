@@ -1,0 +1,30 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <link rel="stylesheet" href="style.css" />
+    <title>W10</title>
+  </head>
+  <body>
+    <h3>How Productive were you today?</h3>
+    <div>
+      <form id="form2">
+        <label
+          >I Feel like I was:
+          <select name="productivity" id="productivity" required>
+            <option value="0"></option>
+            <option value="3">Not Productive</option>
+            <option value="5">Kind of Productive</option>
+            <option value="8">Productive</option>
+            <option value="10">Very Productive</option>
+          </select>
+        </label>
+        <button id="submit">Submit</button>
+        <div id="error"></div>
+      </form>
+    </div>
+    <script src="functions.js"></script>
+    <script src="edit.js"></script>
+  </body>
+</html>
