@@ -1,0 +1,50 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+    <title>W14</title>
+</head>
+
+<body>
+    <h1 id="header">Donut Shop</h1>
+    <div id="donut"></div>
+    <form id="form">
+        <label>
+            Name: <input type="text" name="name" id="name">
+        </label>
+        <br>
+        <label>
+            Type: <select name="order" id="order">
+                <option value="0"></option>
+                <option value="Chocolate">Chocolate</option>
+                <option value="Vanilla">Vanilla</option>
+                <option value="Coconut">Coconut</option>
+                <option value="Bacon">Bacon</option>
+            </select>
+        </label>
+        <br>
+        <label> How Many:
+            <select name="amount" id="amount">
+                <option value="0"></option>
+                <option value="1">One</option>
+                <option value="6">Half a Dozen</option>
+                <option value="12">One Dozen</option>
+                <option value="24">Two Dozen</option>
+        </label>
+        <br>
+        <br>
+        <input type="submit" value="Take an order!">
+    </form>
+    <br><br />
+    <div id="error"></div>
+    <div id="output"></div>
+    <div id="total"></div>
+    <script src="class.js"></script>
+    <script src="app.js"></script>
+</body>
+
+</html>
